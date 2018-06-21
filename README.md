@@ -33,7 +33,7 @@ for tag, images in info.items(): logger.image_summary(tag, images, step) 3.打�
 
 在终端中输入
 
-tensorboard --logdir logs 然后按住ctrl点击链接，即可打开tensorboard
+tensorboard --logdir logs 然后按住ctrl点击链接，即可打开tensorboard  当提示当前端口被占用时，可以--port=6007或者6008等开辟一个新的端口
 
 TensorBoard 0.1.8 at http://yuansquare-PC:6006 (Press CTRL+C to quit) 远程观察服务器的训练情况
 
