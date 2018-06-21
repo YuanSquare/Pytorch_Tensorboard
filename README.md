@@ -3,7 +3,7 @@
 
 1.准备工作
 
-Tensorflow （cpu，gpu版都可以） sudo pip install tensorflow logger 在这里下载，然后放入工程项目文件夹中
+Tensorflow （cpu，gpu版都可以） sudo pip install tensorflow logger 这样下载，然后放入工程项目文件夹中
 
 2.修改训练代码
 
@@ -35,6 +35,6 @@ for tag, images in info.items(): logger.image_summary(tag, images, step) 3.打�
 
 tensorboard --logdir logs 然后按住ctrl点击链接，即可打开tensorboard
 
-TensorBoard 0.1.8 at http://xulzee-PC:6006 (Press CTRL+C to quit) 远程观察服务器的训练情况
+TensorBoard 0.1.8 at http://yuansquare-PC:6006 (Press CTRL+C to quit) 远程观察服务器的训练情况
 
 tensorbard --logdir='./logs' --host=ip
